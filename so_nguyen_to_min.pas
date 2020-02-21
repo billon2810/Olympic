@@ -1,3 +1,4 @@
+BAI 7.1
 uses crt;
 var N,i:integer;dem:byte;
 begin
