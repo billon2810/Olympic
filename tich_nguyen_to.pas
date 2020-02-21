@@ -1,3 +1,4 @@
+BAI 7.2
 uses crt;
 var     g,dem,i,j,N:integer;
         b:array[1..168] of integer;
