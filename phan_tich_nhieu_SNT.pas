@@ -1,4 +1,4 @@
-
+BAI 7.3
 var     i,j,N,a,luu,max:integer;
         dem,g:byte;
         b:array[1..168] of integer;
@@ -16,7 +16,7 @@ begin
                         inc(g);
                         end;
                 end;
-        {LAY N DEM CHIA LAN LUOT CHO CAC PHAN TU NGUYEN TO}
+ 
         for j:=1 to 1000 do
                 begin
                 a:=j;
@@ -36,6 +36,7 @@ begin
                         luu:=i;
                         end;
         writeln(luu);
+        
         while luu <> 1 do
                 for i:=1 to g-1 do if luu mod b[i]=0 then
                         begin
